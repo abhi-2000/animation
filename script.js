@@ -1,15 +1,22 @@
+var n=0;
+var cont = document.getElementById("container");   
 function myMove() {
-   for(var i=0;i<=1;i++)
-   { var elem = document.getElementById("img");   
-    var pos =50;
-    var id = setInterval(frame, 0);
+var elem = document.getElementById("img");   
+    var pos =45;
+    var id = setInterval(frame, 1);
     function frame() {
       if (pos == 830) {
         clearInterval(id);
+        
+        if(n<4)
+         { elem.style.left = 45 + "px";
+            myMove();
+        }
+      
       } else {
         pos++;
         elem.style.left = pos + "px"; 
       }
     }
+    n++;
   }
-}
