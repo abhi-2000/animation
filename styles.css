@@ -1,0 +1,52 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+}
+h1{
+   text-align: center;
+   font-size: 45px;
+   margin: 30px;
+}
+#and{
+
+    background-image: url(/animation/svgs/android_phone.svg);
+    right: 7%;
+    height: 420px;
+    width: 420px;
+    background-size:cover;
+    position: relative;
+}
+#files,#img{
+    /* background-image: url(/animation/svgs/image_transfer_folder.svg); */
+    height: 100px;
+    width: 100px;
+    background-size:cover;
+    position: absolute;
+    left: 17%;
+    top: 28%;
+    
+
+}
+#container{
+    padding-bottom: 5%;
+    background-image:linear-gradient(#1b262c,#bbe1fa,#3282b8,#0f4c75);
+}
+#laptop,#img2{
+    height: 300px;
+    width: 500px;
+    background-size:cover;
+    position: absolute;
+    left: 50%;
+    top: 18%;
+
+}
+button{
+    position: relative;
+      top: 50%;
+  left: 40%;
+    font-size: 50px;
+    cursor: pointer;
+}
