@@ -44,9 +44,20 @@ h1{
 
 }
 button{
+    margin-top: 50px;
     position: relative;
       top: 50%;
   left: 40%;
+  background: #3282b8;
     font-size: 50px;
+    border:none;
     cursor: pointer;
+}
+progress{
+    position: absolute;;
+    top: 75%;
+    left: 15%;
+    width: 70%;
+    height: 50px;
+
 }

@@ -19,4 +19,12 @@ var elem = document.getElementById("img");
       }
     }
     n++;
-  }
+
+  setInterval(()=> {
+   document.getElementsByTagName('progress')[0].value=
+   document.getElementsByTagName('progress')[0].value + 1
+  
+ }, 360)
+}
+
+
