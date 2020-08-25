@@ -61,8 +61,20 @@ progress{
     height: 50px;
 
 }
+#tick-id{
+    height: 250px;
+    width: 300px;
+    background-size:cover;
+    position: absolute;
+    left: 15%;
+    top: 30%;
+}
+
+
 
 #demo{
+padding: 15px;
    font-size: 40px;
-   color: steelblue;
+   color: white;
+   background-color: black;
 }
