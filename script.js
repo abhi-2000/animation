@@ -1,6 +1,6 @@
 var n=0;
 var cont = document.getElementById("container");   
-function myMove() {
+function move() {
 var elem = document.getElementById("img");   
     var pos =45;
     var id = setInterval(frame, 1);
@@ -12,8 +12,19 @@ var elem = document.getElementById("img");
          { elem.style.left = 45 + "px";
             myMove();
         }
-      
-      } else {
+        else
+        {
+          var txt;
+          if (confirm("Transfer Finished")) {
+            txt = "Files are transfered successfully";
+            cont.style.display="none";
+          } else {
+            txt = "You pressed Cancel!";
+          }
+          document.getElementById("demo").innerHTML = txt;     
+      }
+     }
+      else {
         pos++;
         elem.style.left = pos + "px"; 
       }
@@ -24,7 +35,13 @@ var elem = document.getElementById("img");
    document.getElementsByTagName('progress')[0].value=
    document.getElementsByTagName('progress')[0].value + 1
   
- }, 360)
+ }, 310)
+}
+
+function myMove()
+{
+ move();
+
 }
 
 
