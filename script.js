@@ -18,9 +18,10 @@ var elem = document.getElementById("img");
           if (confirm("Transfer Finished")) {
             txt = "Files are transfered successfully";
             cont.style.display="none";
-            document.getElementById("tick-id").style.backgroundImage="url('/animation/svgs/tick.svg')";
+            document.getElementById("tick-id").style.backgroundImage="url('/animation/svgs/tickgif.gif')";
       
           } else {
+            cont.style.display="none";
             txt = "You pressed Cancel!";
           }
           document.getElementById("demo").innerHTML = txt;     
@@ -38,7 +39,7 @@ var elem = document.getElementById("img");
    document.getElementsByTagName('progress')[0].value=
    document.getElementsByTagName('progress')[0].value + 1
   
- }, 310)
+ }, 350)
 }
 
 function myMove()
