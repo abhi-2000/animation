@@ -9,7 +9,7 @@ h1{
 }
 #and{
 
-    background-image: url(/animation/svgs/android_phone.svg);
+    background-image: url(/animation/svgs/server.svg);
     right: 7%;
     height: 420px;
     width: 420px;
@@ -37,11 +37,11 @@ h1{
     background-size:cover;
     position: absolute;
     left: 50%;
-    top: 18%;
+    top: 25%;
 
 }
 button{
-    margin-top: 150px;
+    margin-top: 200px;
     position: relative;
     left: 40%;
     background: black;
@@ -65,7 +65,7 @@ progress{
     background-size:cover;
     position: absolute;
     left: 15%;
-    top: 40%;
+    top: 55%;
 }
 
 
