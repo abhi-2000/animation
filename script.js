@@ -15,8 +15,8 @@ var elem = document.getElementById("img");
         else
         {
           var txt;
-          if (confirm("Transfer Finished")) {
-            txt = "Files are transfered successfully";
+          if (confirm("Download Finished")) {
+            txt = "Files are Downloaded successfully";
             cont.style.display="none";
             document.getElementById("tick-id").style.backgroundImage="url('/animation/svgs/tickgif.gif')";
       
@@ -48,21 +48,3 @@ function myMove()
 
 }
 
-var width=300;
-var dif=2;
-var intervalID=0;
-function increase()
-{
-  intervalID= setInterval(zoomIn,20);
-}
-function zoomIn()
-{
-  if(width<4000)
-  {
-    width=width+dif;
-    document.getElementById("tick-id").style.width=width;
-  }
-  else{
-    clearInterval(intervalID);
-  }
-}
